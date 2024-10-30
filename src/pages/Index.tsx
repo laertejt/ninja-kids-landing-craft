@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Instagram, Linkedin, Facebook, TiktokIcon, Phone } from "lucide-react";
 
 const Index = () => {
   return (
@@ -61,10 +62,57 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-100 py-8">
-        <div className="container mx-auto px-4 text-center text-gray-600">
-          <p>© 2024 NINJA KIDS - Escola Virtual para Crianças</p>
+      {/* Footer with Contact */}
+      <footer className="bg-gray-100 py-12">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-purple-800 mb-4">Entre em Contato</h3>
+            <div className="flex justify-center space-x-6">
+              <a
+                href="https://instagram.com/ninjakids"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-purple-600 transition-colors"
+              >
+                <Instagram size={32} />
+              </a>
+              <a
+                href="https://linkedin.com/company/ninjakids"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-purple-600 transition-colors"
+              >
+                <Linkedin size={32} />
+              </a>
+              <a
+                href="https://facebook.com/ninjakids"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-purple-600 transition-colors"
+              >
+                <Facebook size={32} />
+              </a>
+              <a
+                href="https://tiktok.com/@ninjakids"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-purple-600 transition-colors"
+              >
+                <TiktokIcon size={32} />
+              </a>
+              <a
+                href="https://wa.me/5511999999999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-purple-600 transition-colors"
+              >
+                <Phone size={32} />
+              </a>
+            </div>
+          </div>
+          <div className="text-center text-gray-600">
+            <p>© 2024 NINJA KIDS - Escola Virtual para Crianças</p>
+          </div>
         </div>
       </footer>
     </div>
