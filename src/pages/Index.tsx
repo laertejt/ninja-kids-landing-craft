@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Instagram, Linkedin, Facebook, TiktokIcon, Phone } from "lucide-react";
+import { Instagram, Linkedin, Facebook, Ticket, Phone } from "lucide-react";
 
 const Index = () => {
   return (
@@ -98,7 +98,7 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-purple-600 transition-colors"
               >
-                <TiktokIcon size={32} />
+                <Ticket size={32} />
               </a>
               <a
                 href="https://wa.me/5511999999999"
