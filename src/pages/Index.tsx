@@ -13,6 +13,11 @@ const Index = () => {
         <p className="text-2xl text-gray-700 mb-8">
           Aprenda, Divirta-se e Cresça como um Ninja! 🥷
         </p>
+        <img 
+          src="/ninja-mascot.png" 
+          alt="Ninja Mascot" 
+          className="mx-auto mb-8 w-48 h-48"
+        />
         <Button className="bg-purple-600 hover:bg-purple-700 text-xl px-8 py-6">
           Comece sua Jornada
         </Button>
