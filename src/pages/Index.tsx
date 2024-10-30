@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Instagram, Linkedin, Facebook, Ticket, Phone } from "lucide-react";
+import { Instagram, Linkedin, Facebook } from "lucide-react";
 
 const Index = () => {
   return (
@@ -91,22 +91,6 @@ const Index = () => {
                 className="text-gray-600 hover:text-purple-600 transition-colors"
               >
                 <Facebook size={32} />
-              </a>
-              <a
-                href="https://tiktok.com/@ninjakids"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-purple-600 transition-colors"
-              >
-                <Ticket size={32} />
-              </a>
-              <a
-                href="https://wa.me/5511999999999"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-purple-600 transition-colors"
-              >
-                <Phone size={32} />
               </a>
             </div>
           </div>
