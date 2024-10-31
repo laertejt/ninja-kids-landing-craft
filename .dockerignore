@@ -1,0 +1,9 @@
+README.md
+dist
+node_modules
+.git
+.dockerignore
+.gitignore
+.vscode
+venv
+.DS_Store
