@@ -1,10 +1,11 @@
+version: '3'
 services:
-  app:
+  web:
     build:
       context: .
       dockerfile: Dockerfile
-    image: my-test-image
-    container_name: my-test-container
+    image: my-production-image
+    container_name: my-production-container
     ports:
-      - 8080:8080
-    command: [ "npm", "run", "build" ]
+      - "80:80"  # Mapeia a porta 80 para a produção
+
