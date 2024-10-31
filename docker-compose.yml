@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-test-image
+    container_name: my-test-container
+    ports:
+      - 8080:8080
